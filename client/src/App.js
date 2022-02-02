@@ -72,17 +72,3 @@ function App(props) {
 }
 
 export default withStyles(styles)(App);
-
-// {customers.map((c, idx) => {
-//   return (
-//     <Customer
-//       key={idx}
-//       id={c.id}
-//       image={c.image}
-//       name={c.name}
-//       birthday={c.birthday}
-//       gender={c.gender}
-//       job={c.job}
-//     />
-//   );
-// })}
